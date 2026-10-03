@@ -2,6 +2,10 @@
 
 set -euo pipefail
 
+RED=''
+LIGHT_GREEN=''
+NC=''
+
 if [[ -t 1 ]]; then
     colors=$(tput colors)
     if [[ $colors ]]; then
